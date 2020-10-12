@@ -1,0 +1,39 @@
+[
+    {
+        "location": "Arlington MA",
+        "address": "",
+        "lat": 42.4153739, 
+        "long": -71.1564428
+    },
+    {   "location": "Jersey City, NJ",
+        "address": "357 3rd Street  Jersey City  NJ, 07302",
+        "lat": 40.723620,
+        "long": -74.050610
+    },
+    {
+        "location": "Reading, MA",
+        "address": "347 Main St Reading  MA, 01867", 
+        "lat": 42.5257,
+        "long": -71.0953
+    },
+    {
+        "location": "Westborough, MA",
+        "address": "30 Lyman St Westborough MA, 01581", 
+        "lat": 42.2830981,
+        "long": -71.6416492
+    },
+    {
+        "location": "Westford, MA",
+        "address": "9 Cornerstone square Westford MA, 01886", 
+        "lat": 42.565502,
+        "long": -71.428359
+    } 
+]
+
+let locations = [
+    [42.4153739, -71.1564428, 'Arlington, MA', ''],
+    [40.723620, -74.050610, 'Jersey City, NJ', '357 3rd Street  Jersey City  NJ 07302'],
+    [42.5257, -71.0953, 'Reading, MA', '347 Main St Reading  MA, 01867'],
+    [42.2830981, -71.6416492, 'Westborough, MA', '30 Lyman St Westborough MA, 01581'], 
+    [42.565502, -71.428359, 'Westford, MA', '9 Cornerstone square Westford MA, 01886']
+ ];     

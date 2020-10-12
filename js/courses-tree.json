@@ -1,0 +1,158 @@
+[{
+	"6": {
+	  "id": 6,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Tynker"],
+	      	"gaming": null,
+	      	"robotics": ["WeDO"],
+	      	"electronics": null,
+	      	"competitions": ["FLL Jr"]
+	      }
+	    ]
+	},
+	"7": {
+	  "id": 7,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Tynker - drag n drop/scratch", "Android apps"],
+	      	"gaming": null,
+	      	"robotics": ["WeDO"],
+	      	"electronics": ["Microbits"],
+	      	"competitions": ["FLL Jr"]
+	      }
+	    ]
+	},
+	"8": {
+	  "id": 8,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Tynker", "Codesters (drag n drop python)", "Android apps"],
+	      	"gaming": ["Minecraft"],
+	      	"robotics": ["WeDO"],
+	      	"electronics": ["Microbits"],
+	      	"competitions": ["FLL Jr"]
+	      }
+	    ]
+	},
+	"9": {
+	  "id": 9,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Codesters", "Codecombat (game based python)", "Android apps"],
+	      	"gaming": ["Minecraft"],
+	      	"robotics": ["Mindstorms"],
+	      	"electronics": ["Microbits"],
+	      	"competitions": ["FLL"]
+	      }
+	    ]
+	},
+	"10": {
+	  "id": 10,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Codesters", "Codecombat", "Arcade", "HTML/CSS", "Python", "Animations w/ processing"],
+	      	"gaming": ["Roblox", "Unity"],
+	      	"robotics": ["Mindstorms"],
+	      	"electronics": ["Arduino"],
+	      	"competitions": ["FLL", "Technovation"]
+	      }
+	    ]
+	},
+	"11": {
+	  "id": 11,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Codesters", "Codecombat", "HTML/CSS", "Python", "Animations w/ processing"],
+	      	"gaming": ["Roblox", "Unity"],
+	      	"robotics": ["Mindstorms"],
+	      	"electronics": ["Arduino"],
+	      	"competitions": ["FLL", "Technovation"]
+	      }
+	    ]
+	},
+	"12": {
+	  "id": 12,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Codecombat", "Javascript", "Java", "Greenfoot", "Animations w/ processing"],
+	      	"gaming": ["Unity"],
+	      	"robotics": ["Mindstorms"],
+	      	"electronics": ["Arduino"],
+	      	"competitions": ["FLL", "Technovation"]
+	      }
+	    ]
+	},
+	"13": {
+	  "id": 13,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Python", "Java", "Greenfoot", "HTML/CSS", "Animations w/ processing"],
+	      	"gaming": ["Unity"],
+	      	"robotics": ["Mindstorms"],
+	      	"electronics": ["Arduino"],
+	      	"competitions": ["FLL", "Technovation"]
+	      }
+	    ]
+	},
+	"14": {
+	  "id": 14,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Python", "Java", "Greenfoot", "HTML/CSS", "Animations w/ processing"],
+	      	"gaming": ["Unity"],
+	      	"robotics": ["Mindstorms"],
+	      	"electronics": null,
+	      	"competitions": ["FLL", "Technovation"]
+	      }
+	    ]
+	},
+	"15": {
+	  "id": 15,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Python", "Java", "Greenfoot", "HTML/CSS", "Animations w/ processing"],
+	      	"gaming": ["Unity"],
+	      	"robotics": null,
+	      	"electronics": null,
+	      	"competitions": ["Technovation"]
+	      }
+	    ]
+	},
+	"16": {
+	  "id": 16,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Python", "Java", "Greenfoot", "HTML/CSS", "Animations w/ processing"],
+	      	"gaming": ["Unity"],
+	      	"robotics": null,
+	      	"electronics": null,
+	      	"competitions": ["Technovation"]
+	      }
+	    ]
+	},
+	"17": {
+	  "id": 17,
+	  "courses":
+	    [
+	      {
+	      	"coding": ["Python", "Java", "Greenfoot", "HTML/CSS", "Animations w/ processing"],
+	      	"gaming": ["Unity"],
+	      	"robotics": null,
+	      	"electronics": null,
+	      	"competitions": ["Technovation"]
+	      }
+	    ]
+	}
+}]

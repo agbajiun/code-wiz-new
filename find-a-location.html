@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Code Wiz</title>
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <!-- Include font awesome -->
+    </head>
+    <body class="find-a-location">
+        <header class="">
+            <div class="content">
+                <div class="logo">
+                    <a href="./index.html"><img width="245" height="89" src="./images/code-wiz-logo.png"></a>
+                </div>
+                <div class="top-menu">
+                    <div class="contact-info">
+                        <ul class="menu">
+                            <li><i class="fa fa-comments-o" aria-hidden="true"></i> <a href="#">(213) 279-2176</a></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="#">TOLL-FREE (877) 427-1498 | UK +44(20)33501310</a></li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <input type="checkbox" id="res-menu" />
+                        <label for="res-menu">
+                            <i class="fa fa-bars" id="sign-one"></i>
+                            <i class="fa fa-times" id="sign-two"></i>
+                        </label>
+                        <ul>
+                            <li><a href="./programs.html">PROGRAMS</a></li>
+                            <li><a href="#">ONLINE OFFERINGS</a></li>
+                            <li><a href="#">CLASSES</a></li>
+                            <li><a href="#">CAMPS</a></li>
+                            <li><a href="#">COMPETITIONS</a></li>
+                            <li><a href="#">FAQS</a></li>
+                            <li><a href="#">LOCATIONS</a></li>
+                            <li><a href="#">FRANCHISING</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="container header-text-container">
+                <div class="row">
+                    <div class="top-header col-sm-12 col-md-6">
+                        <div class="text">
+                            <h1 class="header-title cw-dark-blue bungee">find a location</h2> 
+                            <p class="header-text cw-dark-blue">We make it fun and easy to learn code, wherever you are! Code Wiz  offers a range of coding classes, flexible schedules and expert coaches in convenient locations throughout the Northeast. Enter your area code below to find the closest Code Wiz near you.</p>
+                            <button class="btn orange-button">FIND A LOCATION</button> 
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img src="./images/header-find-a-location.png" />
+                    </div>
+                </div>
+            </div>
+        </header>
+       
+        <div class="body-wrapper find-a-location-wrapper">
+            <div class="container find-a-location-container">
+                <div class="row">
+                    <div class="text abs right col-md-12">
+                        <h3 class="bungee">find a code wiz center near you</h3>
+                        <input class="location-input" type="text" placeholder="ZIP, POSTAL CODE OR CITY"/>
+                    </div>
+                </div>
+            </div>
+            <div class="container empty-space-half bw-4"></div>
+            <div class="container empty-space bw-5"></div>
+        </div>
+        <div id="map"></div>
+        <div class="location-links-container container">
+            <div class="row location-links">
+                <a class="col-md-2" href="#">JERSEY CITY, NJ</a>
+                <a class="col-md-2" href="#">WESTBOROUGH, MA</a>
+                <a class="col-md-2" href="#">WESTFORD, MA</a>
+                <a class="col-md-2" href="#">ARLINGTON, MA</a>
+                <a class="col-md-2" href="#">READING, MA</a>
+            </div>
+            <div class="row address-boxes">
+                <div class="col-md-5 box">
+                    <h4 class="cw-dark-blue">Jersey City, NJ</h4>
+                    <p>357 3RD STREET JERSEY CITY NJ, 07302</p>
+                    <span><i class="fa fa-phone"></i></span> <a href="tel:201-589-0199">(201)-589-0199</a><br/><br/>
+                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
+                </div>
+            
+                <div class="col-md-5 box">
+                    <h4 class="cw-dark-blue">Westborough, MA</h4>
+                    <p>30 LYMAN ST. WESTBOROUGH, MA 01581</p>
+                    <span><i class="fa fa-phone"></i></span> <a href="tel:508-277-4562">(508)-277-4562</a><br/><br/>
+                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
+                </div>
+
+                <div class="col-md-5 box">
+                    <h4 class="cw-dark-blue">Arlington, MA</h4>
+                    <p>TBD ARLINGTON MA, TBD</p>
+                    <span><i class="fa fa-phone"></i></span> <a href="tel:201-589-0199">(201)-589-0199</a><br/><br/>
+                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
+                </div>
+            
+                <div class="col-md-5 box">
+                    <h4 class="cw-dark-blue">Westford, MA</h4>
+                    <p>9 CORNERSTONE SQ. WESTFORD, MA 01886</p>
+                    <span><i class="fa fa-phone"></i></span> <a href="tel:508-277-4562">(508)-277-4562</a><br/><br/>
+                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
+                </div>
+
+                <div class="col-md-5 box">
+                    <h4 class="cw-dark-blue">Reading, MA</h4>
+                    <p>347 MAIN STREET READING, MA 01867</p>
+                    <span><i class="fa fa-phone"></i></span> <a href="tel:508-277-4562">(508)-277-4562</a><br/><br/>
+                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container empty-space-half"></div>
+                    <h3 class="bungee center cw-dark-blue">Why parents & <br> kids love code wiz</h3>
+                </div>
+            </div>
+            <div class="container reviews">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="review-box">
+                            <p class="review">text text text</p>
+                            <div class="row">
+                            <img src="" class="col-md-4"/>
+                            <p class="review-name col-md-8">L.Whitman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="review-box">
+                            <p class="review">text text text</p>
+                            <div class="row">
+                            <img src="" class="col-md-4"/>
+                            <p class="review-name col-md-8">L.Whitman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-logo">
+                   <img src="./images/grey-logo.png" /> 
+                   <h6>COPYRIGHT &copy; CODE WIZ 2019-20</h6>
+                   <div class="location-links">
+                       <a href="#">Reading, MA</a> | <a href="#">Arlington, MA</a> | <a href="#">Westford, MA</a> | <a href="#">Westborough, MA</a> | <a href="#">Jersey City, NJ</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/12d81cc7b7.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQieQqRCrRv4P46a82UG5gVHcqkvm9Qgc&callback=initMap" async defer></script>
+        <script src="./js/maps.js"></script>
+        <script>
+            // function get_height(selector){
+            //     return selector.height();
+            // }
+
+            // function update_header_height() {
+            //     let image_height = get_height($('.header-image'));
+            //     $('header').height(image_height);
+            // }
+            
+            // $(document).ready(function(){
+            //     update_header_height();
+            //     let header_height = get_height($('.header-image'));
+            //     $('.body-wrapper-img').css("top", header_height);
+            // });
+
+            // $(window).resize(function(){
+            //     update_header_height();
+            //     let header_height = get_height($('.header-image'));
+            //     $('.body-wrapper-img').css("top", header_height);
+            // });
+        </script>
+    </body>
+</html>
