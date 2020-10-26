@@ -34,6 +34,10 @@ ul, li {
   font-family: 'Bungee Inline', cursive;
 }
 
+#codeWizNav .navbar-nav {
+  justify-content: flex-end;
+}
+
 h1.bungee {
   font-size: 5rem;
 }
@@ -438,6 +442,7 @@ label #sign-two {
 .review-box {
   background-color: white;
   height: 250px;
+  margin:20px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 5px 1px lightgrey;
@@ -606,9 +611,10 @@ label #sign-two {
   margin-top: 10% !important;
 }
 
-#map {
+.map {
   height: 500px;
   width: 100%;
+  margin: 5rem 0;
 }
 
 .location-input {
@@ -725,3 +731,42 @@ label #sign-two {
 .faqs .row img {
   width: 100%;
 }
+
+/* Landing page styles */
+.map-pin img {
+  width: auto;
+}
+
+.form-white {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-white iframe {
+  width: 100%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.team-row {
+  justify-content: center;
+}
+
+.team-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* Camps page styles */
+
+
+/* Template page styles */
+.template {
+  background-color: black;
+}
+
+/* Carousel Styles */

@@ -6,11 +6,10 @@
         <title>Code Wiz</title>
         <!-- Styles -->
         <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="icon" type="image/png" href="http://www.google.com/s2/u/0/favicons?domain=thecodewiz.com">
-
+        
         <!-- Include font awesome -->
     </head>
-    <body class="find-a-location">
+    <body class="girls-scout-badges">
         <header class="">
             <div class="content">
                 <div class="logo">
@@ -30,7 +29,7 @@
                             <i class="fa fa-times" id="sign-two"></i>
                         </label>
                         <ul>
-                            <li><a href="./programs.html">PROGRAMS</a></li>
+                            <li><a href="#">PROGRAMS</a></li>
                             <li><a href="#">ONLINE OFFERINGS</a></li>
                             <li><a href="#">CLASSES</a></li>
                             <li><a href="#">CAMPS</a></li>
@@ -46,77 +45,57 @@
                 <div class="row">
                     <div class="top-header col-sm-12 col-md-6">
                         <div class="text">
-                            <h1 class="header-title cw-dark-blue bungee">find a location</h2> 
-                            <p class="header-text cw-dark-blue">We make it fun and easy to learn code, wherever you are! Code Wiz  offers a range of coding classes, flexible schedules and expert coaches in convenient locations throughout the Northeast. Enter your area code below to find the closest Code Wiz near you.</p>
-                            <button class="btn orange-button">FIND A LOCATION</button> 
+                            <h1 class="header-title cw-dark-blue bungee">camps</h1> 
+                            <!-- <h2 class="header-text cw-dark-blue">Encourage girls to explore STEM! We work closely with troop leaders to craft a custom experience for the girls based on their interests and troop size.</h2>
+                            <button class="btn orange-button">FIND A LOCATION</button>  -->
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
-                        <img src="./images/header-find-a-location.png" />
+                    <div class="col-sm-12 col-md-6 mobile-img visible-sm">
+                        <img src="./images/camps-header-1.png" />
                     </div>
                 </div>
             </div>
+            <img src="./images/camps-header.png" class="header-image hidden-sm"/>
+            <img src="./images/camps-header-2.png" class="header-image visible-sm"/>
         </header>
-       
-        <div class="body-wrapper find-a-location-wrapper">
-            <div class="container find-a-location-container">
-                <div class="row">
-                    <div class="text abs right col-md-12">
-                        <h3 class="bungee">find a code wiz center near you</h3>
-                        <input class="location-input" type="text" placeholder="ZIP, POSTAL CODE OR CITY"/>
+        <!-- <div class="body"> -->
+        <div class="body-wrapper">
+            <div class="container badges-options-top">
+                <div class="center">
+                    
+                </div>
+                <div class="row"> 
+                    <div class="image col-md-6 order-md-1 cw-dark-blue">
+                        <img src="./images/camps-camp-from-home.png" />
+                    </div>
+                    <div class="text col-md-6 order-md-2 cw-dark-blue">
+                        <h3 class="bungee">camp from home</h3>
+                        <h5 class="bungee cw-orange">overview</h5>
+                        <p>Encourage your child to learn invaluable skills, make friends and have the best summer ever-all from the safety and comfort of your home. The Code Wiz welcomes students of all skill levels with age groups for 7-9, 10-12 and 13+.</p>
+                        <button class="btn blue-button">FIND A CENTER NEAR ME</button>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="text col-md-6 order-md-1 cw-dark-blue">
+                        <h3 class="bungee">summer camps</h3>
+                        <h5 class="bungee cw-orange">about camps</h5>
+                        <p>Our online summer camps are perfect for keeping kids active when school isn't in session. One week-long sessions are tailored toward what your child wants to learn. Kids can build and program robots, drones and more using drag-and-drop technology like Scratch or more advanced technology like Python and Raspberry Pi. Weekly coding sessions are also offered for kids who want to work on building video games and web apps.</p>
+                        <button class="btn blue-button">FIND A CENTER NEAR ME</button>    
+                    </div>
+                    <div class="image col-md-6 order-md-2">
+                        <img src="./images/camps-summer-camps.png" />
                     </div>
                 </div>
             </div>
-            <div class="container empty-space-half bw-4"></div>
-            <div class="container empty-space bw-5"></div>
-        </div>
-        <div id="map" class="map"></div>
-        <div class="location-links-container container">
-            <div class="row location-links">
-                <a class="col-md-2" href="#">JERSEY CITY, NJ</a>
-                <a class="col-md-2" href="#">WESTBOROUGH, MA</a>
-                <a class="col-md-2" href="#">WESTFORD, MA</a>
-                <a class="col-md-2" href="#">ARLINGTON, MA</a>
-                <a class="col-md-2" href="#">READING, MA</a>
+            <img src="./images/camps-mid-bkg.png" class="body-wrapper-img"/>
+            <div class="container badges-options-bottom">
+                
             </div>
-            <div class="row address-boxes">
-                <div class="col-md-5 box">
-                    <h4 class="cw-dark-blue">Jersey City, NJ</h4>
-                    <p>357 3RD STREET JERSEY CITY NJ, 07302</p>
-                    <span><i class="fa fa-phone"></i></span> <a href="tel:201-589-0199">(201)-589-0199</a><br/><br/>
-                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
-                </div>
-            
-                <div class="col-md-5 box">
-                    <h4 class="cw-dark-blue">Westborough, MA</h4>
-                    <p>30 LYMAN ST. WESTBOROUGH, MA 01581</p>
-                    <span><i class="fa fa-phone"></i></span> <a href="tel:508-277-4562">(508)-277-4562</a><br/><br/>
-                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
-                </div>
-
-                <div class="col-md-5 box">
-                    <h4 class="cw-dark-blue">Arlington, MA</h4>
-                    <p>TBD ARLINGTON MA, TBD</p>
-                    <span><i class="fa fa-phone"></i></span> <a href="tel:201-589-0199">(201)-589-0199</a><br/><br/>
-                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
-                </div>
-            
-                <div class="col-md-5 box">
-                    <h4 class="cw-dark-blue">Westford, MA</h4>
-                    <p>9 CORNERSTONE SQ. WESTFORD, MA 01886</p>
-                    <span><i class="fa fa-phone"></i></span> <a href="tel:508-277-4562">(508)-277-4562</a><br/><br/>
-                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
-                </div>
-
-                <div class="col-md-5 box">
-                    <h4 class="cw-dark-blue">Reading, MA</h4>
-                    <p>347 MAIN STREET READING, MA 01867</p>
-                    <span><i class="fa fa-phone"></i></span> <a href="tel:508-277-4562">(508)-277-4562</a><br/><br/>
-                    <button href="#" class="btn btn-light-blue">VISIT WEBSITE</buttons>
-                </div>
+            <div class="container center cw-dark-blue">
+             
             </div>
         </div>
-        
+
         <div class="footer">
             <div class="row">
                 <div class="col-md-6">
@@ -162,29 +141,29 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://use.fontawesome.com/12d81cc7b7.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQieQqRCrRv4P46a82UG5gVHcqkvm9Qgc&callback=initMap" async defer></script>
-        <script src="./js/maps.js"></script>
         <script>
-            // function get_height(selector){
-            //     return selector.height();
-            // }
+            function get_height(selector){
+                return selector.height();
+            }
 
-            // function update_header_height() {
-            //     let image_height = get_height($('.header-image'));
-            //     $('header').height(image_height);
-            // }
+            function update_header_height() {
+                let image_height = get_height($('.header-image'));
+                let top_text_height = get_height($('.header-text-container'));
+                $('header').height(image_height);
+                $('.top-header').height(top_text_height);
+            }
             
-            // $(document).ready(function(){
-            //     update_header_height();
-            //     let header_height = get_height($('.header-image'));
-            //     $('.body-wrapper-img').css("top", header_height);
-            // });
+            $(document).ready(function(){
+                update_header_height();
+                let header_height = get_height($('.header-image'));
+                $('.body-wrapper-img').css("top", header_height);
+            });
 
-            // $(window).resize(function(){
-            //     update_header_height();
-            //     let header_height = get_height($('.header-image'));
-            //     $('.body-wrapper-img').css("top", header_height);
-            // });
+            $(window).resize(function(){
+                update_header_height();
+                let header_height = get_height($('.header-image'));
+                $('.body-wrapper-img').css("top", header_height);
+            });
         </script>
     </body>
 </html>
