@@ -125,7 +125,7 @@ header {
 
 header .content {
   padding-left: 80px;
-  padding-right: 80px;
+  padding-right: 15px;
 }
 
 header .header-image {
@@ -158,8 +158,12 @@ header .mobile-img img {
 }*/
 
 
-.content li {
+/* .content li {
     padding-left: 20px;
+}  */
+
+.contact-info li {
+  padding-left: 20px;
 } 
 
 /* .top-header .header-title {
@@ -766,7 +770,14 @@ label #sign-two {
 
 /* Template page styles */
 .template {
-  background-color: black;
+  /* background-color: red; */
 }
 
+.codewizNavigation a{
+  color: #06324E !important;
+}
+
+.codewizNavigation {
+  margin-top: 40px;
+}
 /* Carousel Styles */

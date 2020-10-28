@@ -59,7 +59,7 @@
                     </button>
                 
                     <!-- Collapsible content -->
-                    <div class="collapse navbar-collapse row" id="codeWizNav">
+                    <div class="collapse navbar-collapse row codewizNavigation" id="codeWizNav">
                         <div class="contact-info col-md-12">
                             <ul class="menu">
                                 <li><i class="fa fa-comments-o" aria-hidden="true"></i> <a href="#">(213) 279-2176</a></li>
@@ -68,29 +68,44 @@
                         </div>
                         <!-- Links -->
                         <ul class="navbar-nav mr-auto col-md-12">
+                            <li class="nav-item dropdown" style="">
+                                <a class="nav-link dropdown-toggle" id="homeDropdownMenu" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">HOME</a>
+                                <div class="dropdown-menu dropdown-primary" aria-labelledby="homeDropdownMenu">
+                                    <a class="dropdown-item" href="./about-us.html">ABOUT US</a>
+                                    <a class="dropdown-item" href="#">BLOG</a>
+                                    <a class="dropdown-item" href="./contact.html">CONTACT US</a>
+                                </div>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">ONLINE OFFERINGS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CLASSES</a>
+                                <a class="nav-link" href="./find-my-course.html">CLASSES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CAMPS</a>
+                                <a class="nav-link" href="./camps.html">CAMPS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="competitionDropdownMenu" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">COMPETITIONS</a>
+                                <div class="dropdown-menu dropdown-primary" aria-labelledby="competitionDropdownMenu">
+                                    <a class="dropdown-item" href="./competitions.html">OVERVIEW</a>
+                                    <a class="dropdown-item" href="#">TECHNOVATION</a>
+                                    <a class="dropdown-item" href="#">FLL</a>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">COMPETITIONS</a>
+                                <a class="nav-link" href="./faq.html">FAQS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">FAQS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">LOCATIONS</a>
+                                <a class="nav-link" href="./find-a-location.html">LOCATIONS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">FRANCHISING</a>
                             </li>
                             <!-- Dropdown -->
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown" style="display: none;">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
